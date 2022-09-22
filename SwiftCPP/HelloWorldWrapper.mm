@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HelloWorldWrapper.h"
+#import "wrapper.h"
 #import "HelloWorld.hpp"
 
 @implementation HelloWorldWrapper

@@ -25,7 +25,7 @@
 		1BBFD3B12510138A0096B17F /* SwiftCPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCPP-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BBFD3B22510138A0096B17F /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		1BBFD3B32510138A0096B17F /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
-		1BBFD3B5251014AD0096B17F /* HelloWorldWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldWrapper.h; sourceTree = "<group>"; };
+		1BBFD3B5251014AD0096B17F /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
 		1BBFD3B6251014D00096B17F /* HelloWorldWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldWrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 				1BBFD3B22510138A0096B17F /* HelloWorld.cpp */,
 				1BBFD3B32510138A0096B17F /* HelloWorld.hpp */,
 				1BBFD3B12510138A0096B17F /* SwiftCPP-Bridging-Header.h */,
-				1BBFD3B5251014AD0096B17F /* HelloWorldWrapper.h */,
+				1BBFD3B5251014AD0096B17F /* wrapper.h */,
 				1BBFD3B6251014D00096B17F /* HelloWorldWrapper.mm */,
 			);
 			path = SwiftCPP;
