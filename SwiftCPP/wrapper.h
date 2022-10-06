@@ -12,10 +12,9 @@
 extern "C" {
 #endif
 
-typedef struct HelloWorld HelloWorld;
-
 const void *HelloWorld_initialize();
 const char *HelloWorld_sayHello(const void *);
+
 #ifdef __cplusplus
 }
 #endif
