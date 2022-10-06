@@ -1,3 +1,8 @@
 # SwiftCPP
 
-This is the code to my blog post "How to consume C++ code in Swift" on [medium](https://medium.com/@anuragajwani).
+Example SwiftUI project that uses a C++ dependency.
+
+Master branch uses a C wrapper, there is a separate branch for an example via
+Objective C.
+
+Originally forked from <https://medium.com/@anuragajwani>
