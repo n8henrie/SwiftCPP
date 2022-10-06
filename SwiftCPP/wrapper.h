@@ -5,8 +5,19 @@
 //  Created by Anurag Ajwani on 14/09/2020.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef wrapper_h
+#define wrapper_h
 
-@interface HelloWorldWrapper : NSObject
-- (NSString *) sayHello;
-@end
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef struct HelloWorld HelloWorld;
+
+const void *HelloWorld_initialize();
+const char *HelloWorld_sayHello(const void *);
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* wrapper_h */

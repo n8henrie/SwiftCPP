@@ -9,10 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        Text("Hello, world!").padding()
-//        Text(HelloWorldWrapper().sayHello()).padding()
-        let wrapper = HelloWorldWrapper()
-        Text(String(wrapper.sayHello())).padding()
+        let wrapper = HelloWorld_initialize();
+        Text(String(cString:HelloWorld_sayHello(wrapper))).padding()
     }
 }
 

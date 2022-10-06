@@ -12,7 +12,7 @@
 		1BBFD3A72510135C0096B17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBFD3A62510135C0096B17F /* Assets.xcassets */; };
 		1BBFD3AA2510135C0096B17F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBFD3A92510135C0096B17F /* Preview Assets.xcassets */; };
 		1BBFD3B42510138A0096B17F /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD3B22510138A0096B17F /* HelloWorld.cpp */; };
-		1BBFD3B7251014D00096B17F /* HelloWorldWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD3B6251014D00096B17F /* HelloWorldWrapper.mm */; };
+		1BBFD3B7251014D00096B17F /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD3B6251014D00096B17F /* wrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		1BBFD3B22510138A0096B17F /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		1BBFD3B32510138A0096B17F /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 		1BBFD3B5251014AD0096B17F /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
-		1BBFD3B6251014D00096B17F /* HelloWorldWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldWrapper.mm; sourceTree = "<group>"; };
+		1BBFD3B6251014D00096B17F /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				1BBFD3B32510138A0096B17F /* HelloWorld.hpp */,
 				1BBFD3B12510138A0096B17F /* SwiftCPP-Bridging-Header.h */,
 				1BBFD3B5251014AD0096B17F /* wrapper.h */,
-				1BBFD3B6251014D00096B17F /* HelloWorldWrapper.mm */,
+				1BBFD3B6251014D00096B17F /* wrapper.cpp */,
 			);
 			path = SwiftCPP;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 				1BBFD3B42510138A0096B17F /* HelloWorld.cpp in Sources */,
 				1BBFD3A52510135B0096B17F /* ContentView.swift in Sources */,
 				1BBFD3A32510135B0096B17F /* SwiftCPPApp.swift in Sources */,
-				1BBFD3B7251014D00096B17F /* HelloWorldWrapper.mm in Sources */,
+				1BBFD3B7251014D00096B17F /* wrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
